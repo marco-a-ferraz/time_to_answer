@@ -1,4 +1,4 @@
-'pt-BR'
+pt-BR:
   activerecord:
     models:
       admin:
@@ -12,9 +12,9 @@
         id: Código
         email: Email
         created_at: Criado em
-        update_at: Atualiado em
+        update_at: Atualizado em
       profile:
         id: Código
         email: Email
         created_at: Criado em
-        update_at: Atualiado em
+        update_at: Atualizado em
