@@ -1,0 +1,13 @@
+h1 Site::Welcome#index
+p Find me in app/views/site/welcome/index.html.erb 
+
+- if user_signed_in?
+    p = "Usuario logado / #{current_user.email}"
+- else
+    p Usuario não logado
+
+- if admin_signed_in?
+    p = "Usuario logado / #{current_admin.email}"
+- else
+    p Usuario não logado
+

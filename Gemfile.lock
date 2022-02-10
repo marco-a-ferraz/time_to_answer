@@ -179,6 +179,9 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
+    slim (4.1.0)
+      temple (>= 0.7.6, < 0.9)
+      tilt (>= 2.0.6, < 2.1)
     spring (4.0.0)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -188,6 +191,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
+    temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
     tty-cursor (0.7.1)
@@ -237,6 +241,7 @@ DEPENDENCIES
   rails-i18n (~> 6.0.0)
   sass-rails (>= 6)
   selenium-webdriver
+  slim (~> 4.1)
   spring
   sqlite3 (~> 1.4)
   tty-spinner
