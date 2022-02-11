@@ -12,5 +12,9 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/marco-a-ferraz/time_to_answer.git",
+  "author": "Marco Ferraz <contatomarcoferraz@outlook.com>",
+  "license": "MIT"
 }
